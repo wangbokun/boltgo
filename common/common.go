@@ -6,8 +6,8 @@ type Command struct {
 }
 
 var boltgoCommands = []Command{
-	{"cmd", "run command,boltgo run $ipfile $cmd"},
-	{"rsync", "rsync files"},
+	{"cmd", " command,boltgo run $ipfile $cmd"},
+	{"rsync", " files, rsync $ipfile $srcfile $dscfile"},
 }
 
 var BoltgoCommands = make(map[string]Command)
